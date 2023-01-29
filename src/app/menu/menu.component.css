@@ -1,0 +1,20 @@
+.dot {
+  height: 9pt;
+  width: 9pt;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.menuA {
+  padding-right: 20pt;
+  cursor: pointer;
+}
+
+.cbr {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 7.75vh 8vw;
+  text-align: right;
+}
