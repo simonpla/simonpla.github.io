@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+  color: white;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 280%;
+  font-weight: 100;
+}
+
+h2, a {
+  color: white;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 110%;
+  font-weight: 700;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+body {
+  background-color: #1e1e1e;
+  padding: 4vh 8vw;
+}
+
+p, .cntLink {
+  color: white;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 350;
+}
