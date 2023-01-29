@@ -70,7 +70,10 @@ export class MenuComponent  implements AfterViewInit{
     "</h2>" +
     "<a class='cntLink' href='https://twitter.com/kamelisum'>twitter.com/kamelisum</a>",
 
-    "<p>simon.plachta@gmx.net</p>"
+    "<a href=\"mailto:simon.plachta@gmx@@net\"\n" +
+    "   onmouseover=\"this.href=this.href.replace('@@','.')\">\n" +
+    "   simon.plachta@gmx.net" +
+    "</a>"
   ];
 
   changeContent (id: number) {
